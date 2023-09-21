@@ -1,0 +1,9 @@
+img {
+    max-width: 50%;
+}
+body {
+    background-color: black;
+}
+h1,h2,p {
+    color: whitesmoke;
+}
