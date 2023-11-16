@@ -19,7 +19,7 @@ Fonts are separated by a | */
   --headline-color-on-white: #141414;  /* headlines on a white background */ 
   --headline-color-on-color: #FFA90D; /* headlines on a colored background */ 
   --paragraph-color-on-white: #001C29; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #F77E05; /* paragraph text on a colored background */ 
+  --paragraph-color-on-color: #FFA90D; /* paragraph text on a colored background */ 
   --paragraph-background-color: #001C29  ;
   --nav-link-color: #F77E05;
   --nav-background-color: #001C29;
@@ -91,8 +91,11 @@ p {
 .accent1 {
   background-color: var(--accent1-color);
 }
-.accent2{
+.accent2 {
   background-color: var(--accent2-color);
+}
+.accent3 {
+  background-color: var(--accent3-color);
 }
 
 p.colored {
