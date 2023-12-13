@@ -47,6 +47,9 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #page-link-container .page-link-box {
@@ -56,6 +59,8 @@ body {
   
   display: flex;
 
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 #page-link-container .page-link-box img {
@@ -165,12 +170,8 @@ footer a {
     grid-template-rows: 40px, 40px;
     grid-template-columns: auto;
   }
-  #page-link-container {
-    flex-direction: column;
-  }
   #page-link-container .page-link-box {
     flex-direction: column;
-    margin-block-end: 10px;
   }
   #page-link-container .page-link-box a{
     margin: 20px 0;
