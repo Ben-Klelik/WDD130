@@ -114,7 +114,7 @@ header nav a {
 }
 
 
-.content {
+#content {
   max-width: 1920px;
   margin: 0 auto;
   padding: 0 50px;
@@ -163,6 +163,40 @@ footer a {
   padding: 5px 10px;
 }
 
+.fade-container {
+  position: relative;
+  width: 50%;
+}
+
+.fade-container img {
+  margin-left: auto;
+  margin-right: auto;
+  transition: .3s ease;
+}
+
+.fade-container .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: auto;
+  height: 100%;
+  transform: scale(0);
+  transition: .3s ease;
+}
+.fade-container:hover .overlay {
+  transform: scale(1);
+}
+.fade-container:hover img {
+  transform: scale(0);
+}
+
+.fade-container img {
+  width: 100%;
+  height: auto;
+}
 
 @media screen and (max-width: 1025px) {
   
