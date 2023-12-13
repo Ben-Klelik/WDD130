@@ -122,14 +122,14 @@ header nav a {
   text-align: center;
 }
 
-.content h1 {
+#content h1 {
   color: var(--headline-color-on-color);
   width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.content p{
+#content p{
   color: var(--paragraph-color-on-color);
   width: 70%;
   margin-left: auto;
